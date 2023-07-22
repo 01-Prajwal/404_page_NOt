@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Cedarville+Cursive&family=Comfortaa:wght@500&family=Cutive+Mono&family=Hind+Siliguri:wght@300&family=Lato&family=Montserrat:wght@100&family=Mulish:wght@200&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Outfit:wght@200&family=Pacifico&family=Playfair+Display:ital@1&family=Poor+Story&family=Poppins:wght@100;300&family=Red+Hat+Display:wght@300&family=Roboto:ital,wght@1,100&family=Rubik:ital,wght@0,300;1,400&family=Space+Mono&family=Syne:wght@800&family=Ubuntu&family=Unbounded:wght@800&family=Varela+Round&display=swap');
+img{
+    width: 31vw;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family:"Space Mono";
+    color: #333333;
+    width: 20vw;
+}
+#title{
+    font-family: "Space Mono";
+    width: 100%;
+}
+p{
+    width: 20vw;
+    font-family: 'Space Mono';
+}
+button{
+    color: whitesmoke;
+    background-color: #333333;
+    border: none;
+    height: 8vh;
+    font-family: "Space Mono";
+    text-transform:uppercase;
+}
+
+@media screen and ( max-width:1200px) {
+  
+    .div{
+        flex-direction: column;
+    }
+    h1{
+        width: 100%;
+    }
+    p{
+        width: 100%;
+        
+    }
+    button{
+
+    }
+
+} 
